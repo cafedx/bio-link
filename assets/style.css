@@ -4,30 +4,6 @@
 
 :root {
   --font-family: IRANSansX;
-  --color-telegram: #1c88d4;
-  --color-twitter: #1d9bf0;
-  --color-whatsapp: #25d366;
-  --color-instagram: #ca2b96;
-  --color-youtube: #f00;
-  --color-linkedin: #0a66c2;
-}
-.telegram {
-  color: var(--color-telegram);
-}
-.whatsApp {
-  color: var(--color-whatsapp);
-}
-.instagram {
-  color: var(--color-instagram);
-}
-.youtube {
-  color: var(--color-youtube);
-}
-.twitter {
-  color: var(--color-twitter);
-}
-.linkedin {
-  color: var(--color-linkedin);
 }
 
 html,
@@ -51,9 +27,6 @@ body {
 a {
   text-decoration: none;
 }
-.site-title {
-  font-size: 2.5rem;
-}
 .app {
   width: 350px;
   min-height: 100%;
@@ -65,10 +38,17 @@ a {
   padding: 4rem 1rem;
   background: white;
 }
+.site-title {
+  font-size: 2rem;
+}
 
 .logo {
   width: 100px;
   height: 100px;
+}
+.logo-icons {
+  width: 50px;
+  height: 50px;
 }
 .social-btn {
   width: 90%;
@@ -91,22 +71,26 @@ a {
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
-  max-width: 150px;
+  max-width: 250px;
 }
-.icon {
-  font-size: 3rem;
+.social-icon img {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
   margin: 1rem;
 }
 .official-site {
-  background-color: #171717;
-  color: white;
+  background-color: #f8f9fa;
+  color: #171717;
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 0.5rem;
+  border-radius: 24px;
   margin: 0 auto 2rem auto;
 }
