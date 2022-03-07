@@ -1,6 +1,6 @@
 @font-face {
   font-family: "icomoon";
-  src: url("icomoon.ttf?pbremc") format("truetype");
+  src: url("icomoon.ttf?6mgq25") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -22,17 +22,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-telegram:before {
-  content: "\e900";
-}
-.icon-whatsapp:before {
-  content: "\e901";
-}
 .icon-images:before {
   content: "\e90e";
-}
-.icon-film:before {
-  content: "\e913";
 }
 .icon-phone:before {
   content: "\e942";
@@ -48,4 +39,28 @@
 }
 .icon-new-tab:before {
   content: "\ea7e";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eaca";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
 }
