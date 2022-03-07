@@ -1,3 +1,6 @@
+/*
+
+*/
 .device-iphone-x {
   height: 868px;
   width: 428px;
@@ -17,23 +20,6 @@
   border-radius: 40px;
   height: 812px;
   width: 375px;
-}
-.device-iphone-x .device-stripe::after,
-.device-iphone-x .device-stripe::before {
-  border: solid rgba(51, 51, 51, 0.25);
-  border-width: 0 7px;
-  content: "";
-  height: 7px;
-  left: 0;
-  position: absolute;
-  width: 97%;
-  z-index: 9;
-}
-.device-iphone-x .device-stripe::after {
-  top: 85px;
-}
-.device-iphone-x .device-stripe::before {
-  bottom: 85px;
 }
 .device-iphone-x .device-header {
   background: #f8f9fa;
