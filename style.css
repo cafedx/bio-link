@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: IRANSansX;
+  --color-telegram: #1c88d4;
+  --color-whatsapp: #25d366;
+}
+.telegram {
+  background-color: var(--color-telegram);
+}
+.whatsApp {
+  background-color: var(--color-whatsapp);
+}
+
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: var(--font-family);
+} */
+.site-title {
+  font-size: 2.5rem;
+}
+.app {
+  width: 350px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  padding: 7rem 1rem;
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+}
+.social-btn {
+  width: 90%;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 48px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.btn-title {
+  padding: 0 1rem;
+}
