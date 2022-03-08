@@ -4,6 +4,8 @@
 
 :root {
   --font-family: IRANSansX;
+  --text-color: #171717;
+  --button-bg-color: #f8f9fa;
   --color-whatsapp: #25d366;
   --color-telegram: #0088cc;
   --color-instagram: pink;
@@ -31,7 +33,8 @@ body {
   font-family: var(--font-family);
   font-size: 1.6rem;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
+  padding: 1rem 0;
 }
 a {
   text-decoration: none;
@@ -84,8 +87,8 @@ a {
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 250px;
 }
@@ -125,17 +128,20 @@ a {
 }
 
 .official-site {
-  background-color: #f8f9fa;
-  color: #171717;
+  background-color: var(--button-bg-color);
+  color: var(--text-color);
   width: 230px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 0.5rem;
-  border-radius: 24px;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-radius: 40px;
   margin: 0 auto 2rem auto;
   transition: all 0.3s ease-in-out;
 }
 .official-site:hover {
   box-shadow: 0 0.5rem 2rem 0.5rem rgb(0 0 0 / 10%);
+}
+.official-site-text {
+  flex-grow: 1;
 }

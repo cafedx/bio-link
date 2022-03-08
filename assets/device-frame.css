@@ -4,7 +4,6 @@ Copyright (c) 2017 Yan Zhu
 Edited by seyyedkhandon
 */
 .device-iphone-x {
-  height: 868px;
   width: 428px;
   position: relative;
   margin: auto;
@@ -14,13 +13,12 @@ Edited by seyyedkhandon
   border-radius: 68px;
   box-shadow: 0 0.5rem 2rem 0.5rem rgb(0 0 0 / 10%), inset 0 0 0 2px #e4b08a,
     inset 0 0 0 7px #f7e8dd;
-  height: 868px;
   padding: 28px;
   width: 428px;
 }
 .device-iphone-x .device-content {
   border-radius: 40px;
-  height: 812px;
+  height: calc(100% - 56px);
 }
 .device-iphone-x .device-header {
   background: #f8f9fa;
