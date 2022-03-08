@@ -21,7 +21,6 @@ Edited by seyyedkhandon
 .device-iphone-x .device-content {
   border-radius: 40px;
   height: 812px;
-  width: 375px;
 }
 .device-iphone-x .device-header {
   background: #f8f9fa;
@@ -115,4 +114,22 @@ Edited by seyyedkhandon
   position: absolute;
   top: 200px;
   width: 3px;
+}
+@media only screen and (max-width: 420px) {
+  .device-iphone-x,
+  .device-iphone-x .device-frame {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .device-iphone-x,
+  .device-iphone-x .device-frame {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .device-iphone-x,
+  .device-iphone-x .device-frame {
+    width: 355px;
+  }
 }

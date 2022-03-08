@@ -4,6 +4,15 @@
 
 :root {
   --font-family: IRANSansX;
+  --color-whatsapp: #25d366;
+  --color-telegram: #0088cc;
+  --color-instagram: pink;
+  --color-facebook: #3b5998;
+  --color-twitter: #1da1f2;
+  --color-linkedin: #0077b5;
+  --color-youtube: #ff0000;
+  --color-github: #24292e;
+  --color-skype: #00aff0;
 }
 
 html,
@@ -28,7 +37,7 @@ a {
   text-decoration: none;
 }
 .app {
-  width: 350px;
+  width: 100%;
   min-height: 100%;
   display: flex;
   align-items: center;
@@ -45,6 +54,10 @@ a {
 .logo {
   width: 100px;
   height: 100px;
+  transition: all 0.3s ease-in-out;
+}
+.logo:hover {
+  filter: drop-shadow(-1px 3px 4px #000);
 }
 .logo-icons {
   width: 50px;
@@ -76,13 +89,41 @@ a {
   flex-wrap: wrap;
   max-width: 250px;
 }
+
 .social-icon img {
   width: 50px;
   height: 50px;
   background-size: contain;
   background-position: center;
   margin: 1rem;
+  transition: all 0.3s ease-in-out;
 }
+
+.whatsapp-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-whatsapp));
+}
+.telegram-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-telegram));
+}
+.instagram-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-instagram));
+}
+.facebook-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-facebook));
+}
+.twitter-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-twitter));
+}
+.linkedin-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-linkedin));
+}
+.youtube-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-youtube));
+}
+.github-shadow:hover {
+  filter: drop-shadow(-2px 5px 4px var(--color-github));
+}
+
 .official-site {
   background-color: #f8f9fa;
   color: #171717;
@@ -93,4 +134,8 @@ a {
   padding: 0.5rem;
   border-radius: 24px;
   margin: 0 auto 2rem auto;
+  transition: all 0.3s ease-in-out;
+}
+.official-site:hover {
+  box-shadow: 0 0.5rem 2rem 0.5rem rgb(0 0 0 / 10%);
 }
