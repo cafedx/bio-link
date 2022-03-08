@@ -2,8 +2,6 @@
 
 Multiple links in Bio 😉
 
-See it Online: [Online Demo](https://cafedx.github.io/bio-link/index.html)
+See it Online: [Online Demo](https://cafedx.github.io/bio-link)
 
-
-![alt text](https://github.com/cafedx/bio-link/blob/main/cafedx_bio_link_demo.jpeg "Bio-link Demo")
-
+<img height="450px" src="https://raw.githubusercontent.com/cafedx/bio-link/main/bio-link.jpeg" alt="Bio-link Demo"/>
